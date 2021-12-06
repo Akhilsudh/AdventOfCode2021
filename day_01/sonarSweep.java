@@ -5,7 +5,7 @@ import java.io.*;
 public class sonarSweep {
   int puzzle1() throws IOException {
     int result = 0;
-    BufferedReader br = new BufferedReader(new FileReader("day_01/deapth.list"));
+    BufferedReader br = new BufferedReader(new FileReader("day_01/depth.list"));
     String line = "";
     int prev = Integer.parseInt(br.readLine());
     while((line = br.readLine()) != null) {
@@ -21,7 +21,7 @@ public class sonarSweep {
 
   int puzzle2() throws IOException {
     int result = 0;
-    BufferedReader br = new BufferedReader(new FileReader("day_01/deapth.list"));
+    BufferedReader br = new BufferedReader(new FileReader("day_01/depth.list"));
     String line = "";
     int item1 = Integer.parseInt(br.readLine());
     int item2 = Integer.parseInt(br.readLine());
